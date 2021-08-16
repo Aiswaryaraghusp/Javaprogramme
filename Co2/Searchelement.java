@@ -18,8 +18,7 @@ for (int i = 0; i < str.length; i++)
         return; 
         
     } 
-    
-} 
+    } 
 System.out.println("Item not found!!!"); 
     
 }
@@ -44,4 +43,23 @@ public class Searchelement{
         s.search(read); 
         
     }}
+
+Output:
+Enter the limit:5
+
+Enter Array Elements:1
+
+2
+
+3
+
+4
+
+5
+
+Enter the Item to be searched :5
+
+Item found in the array!!!
+
+
 
