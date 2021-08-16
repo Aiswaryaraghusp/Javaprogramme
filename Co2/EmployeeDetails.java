@@ -58,3 +58,40 @@ class Employee
                     Search(emp, read); 
                     
                 }}
+
+Output:
+Enter the number of Employee : 3
+
+
+
+Enter the Employee Number : 1
+
+Enter the Employee Name : anu
+
+Enter the Salary : 10000
+
+
+
+Enter the Employee Number : 2
+
+Enter the Employee Name : ammu
+
+Enter the Salary : 50000
+
+
+
+Enter the Employee Number : 3
+
+Enter the Employee Name : alan
+
+Enter the Salary : 15000
+
+
+
+Enter the Employee Number to be Searched: 4
+
+No Employee with Given Employee number found!!!
+
+
+
+
