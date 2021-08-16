@@ -33,15 +33,25 @@ class Circle extends Shape{
 class Area{
 	public static void main(String ar[]){
 		
-		Rectangle r=new Rectangle(4,5);
-		Square s=new Square(4);
-		Circle c=new Circle(2);
+		Rectangle r=new Rectangle(7,8);
+		Square s=new Square(2);
+		Circle c=new Circle(4);
 		Shape ref;
 		ref=r;
-		r.area(4,5);
+		r.area(7,8);
 		ref=s;
-		s.area(4);
+		s.area(2);
 		ref=c;
-		c.area(2);
+		c.area(4);
 	}
 }
+
+Output:
+Area of rectangle:56.0
+
+Area of square:4.0
+
+Area of circle:50.24
+
+
+
