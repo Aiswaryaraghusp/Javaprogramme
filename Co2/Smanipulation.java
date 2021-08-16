@@ -31,7 +31,9 @@ class StringManipulation
         { 
             System.out.println("Uppercase of string "+s1+" is: "+ s1.toUpperCase()); 
             System.out.println("Lowercase of string "+s1+" is: "+ s1.toLowerCase()); 
-            
+            System.out.println("Uppercase of string "+s2+" is: "+ s2.toUpperCase());
+            System.out.println("Lowercase of string "+s2+" is: "+ s2.toLowerCase());
+
         }
         void StringCompare()
         { 
