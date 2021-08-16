@@ -18,8 +18,7 @@ class CPU
                 System.out.print("Enter the manufacturer name:");
                 manufacturer = read.nextLine();
                 } 
-            
-        }
+             }
         static class RAM { 
             static int memory; 
             static String manufacturer; 
@@ -31,8 +30,7 @@ class CPU
                 System.out.print("Enter the manufacturer name:"); 
                 manufacturer = read.nextLine();
                 } 
-            
-        }
+             }
         void Display(Scanner read)
         { 
             Processor p= new Processor();
@@ -40,14 +38,12 @@ class CPU
             RAM.ramDetails(read); 
             System.out.println("\nProcessor Details"); 
             System.out.println("__________________"); 
-            System.out.println("\nextLineNo of Cores : "+p.no_of_cores+"\nManufacturer : "+p.manufacturer+"\n");
+            System.out.println("\nNo of Cores : "+p.no_of_cores+"\nManufacturer : "+p.manufacturer+"\n");
             System.out.println("Memory Details"); 
             System.out.println("__________________");
             System.out.println("\nMemory size : "+RAM.memory+"GB\nManufacturer : "+RAM.manufacturer+"\n"); 
-            
-        }
-    
-} 
+            }
+    } 
 public class cpuinfo
 {
     public static void main(String args[]) 
@@ -58,5 +54,26 @@ double price = read.nextDouble();
 CPU c1 = new CPU(price);
 c1.Display(read);
 }
-    
-}
+ }
+
+Output:
+Enter the price of the cpu:1000
+Enter no.of cores in processor:2
+Enter the manufacturer name:intel
+Enter the size of memory(in GB):8
+Enter the manufacturer name:G-skill
+
+Processor Details
+__________________
+No of Cores : 2
+Manufacturer : intel
+
+Memory Details
+__________________
+Memory size : 8GB
+Manufacturer : G-skill
+
+
+
+
+
