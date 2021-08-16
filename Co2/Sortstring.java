@@ -41,3 +41,21 @@ public class sortstring
         }
     
 }
+Output:
+Enter the limit:4
+
+Enter the elements : 
+
+anu
+
+ammu
+
+sana
+
+alan
+
+[alan, ammu, anu, sana]
+
+
+
+
