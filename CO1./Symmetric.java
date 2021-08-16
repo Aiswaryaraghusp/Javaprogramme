@@ -3,7 +3,6 @@ import java.util.Scanner;
 class Matrix{
     int order;
     int[][] matrix;
-
     Matrix(int order){
         this.order = order;
         matrix = new int[order][order];
@@ -40,3 +39,20 @@ public class Symmetric{
         m.isSymmetricMatrix();
     }
 }
+Output:
+Enter the order of sqare metrix:2
+
+Enter the elements in 2x2 matrix:
+
+1
+
+2
+
+3
+
+4
+
+Given matrix is not a symmetric metrix
+
+
+
