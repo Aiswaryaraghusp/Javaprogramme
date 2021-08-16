@@ -1,6 +1,5 @@
 class Product
 {
-
 int pcode;
 
 String pname;
@@ -82,3 +81,9 @@ System.out.println("The Lowest price product is "+pro3.pname+" with price"+pro3.
 }
 
 }
+
+Output:
+The Lowest price porduct is vivo with price10000.0
+
+
+
