@@ -65,3 +65,34 @@ sm.StringCompare();
         }
             
         }
+Output:
+Enter first string : hello
+
+Enter Second string : world
+
+After String adding hello and world is : helloworld
+
+Length of hello is : 5
+
+Length of world is : 5
+
+Enter the position of Character you want to access : 3
+
+Character at position 3 of hello is : l
+
+Character at position 3 of world is : r
+
+Uppercase of string hello is: HELLO
+
+Lowercase of string hello is: hello
+
+Uppercase of String world is: WORLD
+
+Lowercase of String world is: world
+
+Two Strings are not equal!
+
+
+
+
+
