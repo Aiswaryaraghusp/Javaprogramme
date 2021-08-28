@@ -56,3 +56,33 @@ class Books{
 		
 	}
 }
+
+
+Output:
+
+---------------------------------------
+
+Literature
+
+---------------------------------------
+
+Publisher name:Universities Press
+
+Book name:Wings of Fire
+
+Literature name:An autobiography of APJ Abdulkalam
+
+---------------------------------------
+
+Fiction
+
+---------------------------------------
+
+Publisher name:To kill a mocking bird
+
+Book name:abc
+
+Fiction name:harperlee
+
+
+
