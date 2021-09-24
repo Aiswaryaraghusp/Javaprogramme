@@ -13,11 +13,11 @@ public void init()
 }
 public void paint(Graphics g)
 {
-g.drawLine(100,300,50,76);
+g.drawLine(10,10,50,10);
 
 g.setColor(Color.yellow);
-g.drawRect(100,300,50,76);
-g.drawOval(200,300,50,76);
+g.drawRect(70,10,35,50);
+g.drawOval(150,10,100,100);
 }
 
 }
